@@ -1,0 +1,54 @@
+body {
+    background-color: beige;
+}
+h1 {
+    background-color: #E2E2E2;
+    text-align: center; 
+    border: 0px;
+    border-radius: 15px;
+}
+.left {
+    color: white;
+    float: center;
+    font-family:Century Gothic medium;
+    font-size: 20px; border: 0px;
+    border-radius: 25px;
+    padding: 15px;
+    border:2px solid tomato;
+    margin: 20px;
+    text-align: center;
+    background-image: url('DSCF6021.jpg')
+}
+aside {
+    font: fantasy;
+    float:left;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+.OrderedList {
+ float: center;
+ text-align: center;   
+}
+.Bikal {
+ float: right;
+ font-family: kalpurush;
+ text-align: center;
+ background-color: bisque;
+ border: 0px;
+ border-radius: 25px;   
+}
+#districtMap {
+ float: center;
+ text-align: center;   
+}
+button {
+ color: white;
+ background-color: cornflowerblue;
+}
+button:hover {
+ background-color: teal;
+ color: aliceblue;
+} 
+#Ditio {
+}
