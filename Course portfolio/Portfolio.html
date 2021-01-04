@@ -8,6 +8,7 @@
     body {
         font-family: Century Gothic;
         font-display: swap;
+        margin: 0px;
     }
     #img {
         background-image: url('Slide1.JPG');
@@ -20,42 +21,57 @@
     .left-half-width 
     {
         width: 40%;
-        margin-left: 50px;
+        padding-left: 50px;
         float: left;
+        background-image: url('exp-bg.png');
+        background-repeat: no-repeat;
     }
     .anchor-button
     {
-        border-radius: 25px;
+        border-radius: 15px;
         width: 100px;
-        height: 60px
+        height: 50px;
+        background-image: linear-gradient(50deg, salmon, tomato);
+        margin-left: 40%;
     }
     .right-half-width 
     {
         width: 40%;
         margin-right: 50px;
         float: right;
-        background-image: url('bg-2.png');
+    }
+    .Description
+    {
+        height: 1000px;
+        font-size: 20px;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        background-image: url('biography-bg.png');
+
+    }
+    .Button
+    {
+        text-decoration: none;
     }
     </style>
 </head>
 <body>
     <div id="img">
-        <h1><span style="font-size: 50px;">Welcome to<br>Istiack Amin's</span><br><span style="font-size: 75px; text-align: right; color: #dd8111;">website</span></h1>
+        <h1><span style="font-size: 50px;">Welcome to<br>Istiack Amin's</span><br><span style="font-size: 75px; color: #dd8111;">website</span></h1>
         <h1>My desire to be a professional <span style="color: tomato; font: outline;">Game Developer.</h1>
-        <p style="font-size: 30px;"><b><span style="font-size: 35px;">This </span></b> web development course is the first step to my goal.</p>
+        <p style="font-size: 20px;"><b><span style="font-size: 25px;">This </span></b> web development course is the first step to my goal.</p>
     </div>
-    <div class="left-half-width">
-        <h1>Web Developer</h1>
-        <p>I am a student in Motijheel Govt. Boy's High School and College. Also a student of programming-hero. I have learnt basic HTML5 & basic CSS. I will develop my skill more and more in next 3 months. If you want to hire me in advance, I won't mind.</p><br>
-        <Button class="anchor-button" style="background-color: blueviolet;">
-            <a style="color: white;" target="_blank" href="https://www.facebook.com/istiack.amin/"><b>HIRE ME</b></a></Button>
-    </div>
-    <div class="right-half-width">
-    <h1 style="text-align: center;">Dream Big</h1>
-    
-    <p>dgsg dasfsd sdgsdfg dsfsd dgs dsgs </p>
-    </div>
+    <section class="Description">
+        <div class="left-half-width">
+            <h1 style="text-align: center;">Web Developer</h1>
+            <p>I am a student in Motijheel Govt. Boy's High School and College. Also a student of programming-hero. I have learnt basic HTML5 & basic CSS. I will develop my skill more and more in next 3 months. If you want to hire me in advance, I won't mind.</p><br>
+            <Button class="anchor-button">
+                <a class="Button"style="color: white;" target="_blank" href="https://www.facebook.com/istiack.amin/"><b>HIRE ME</b></a></Button>
+        </div>
+        <div class="right-half-width">
+            <h1 style="text-align: center;">Dream Big</h1>
+            <p>I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make simple website. My goal is to build 3 websites and learn advanced topics.</p>
+        </div>
+    </section>
 </body>
 </html>
