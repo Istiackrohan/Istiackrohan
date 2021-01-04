@@ -1,23 +1,11 @@
 body {
-    background-color: beige;
+    background-color: white;
 }
 h1 {
     background-color: #E2E2E2;
     text-align: center; 
     border: 0px;
     border-radius: 15px;
-}
-.left {
-    color: white;
-    float: center;
-    font-family:Century Gothic medium;
-    font-size: 20px; border: 0px;
-    border-radius: 25px;
-    padding: 15px;
-    border:2px solid tomato;
-    margin: 20px;
-    text-align: center;
-    background-image: url('DSCF6021.jpg')
 }
 aside {
     font: fantasy;
@@ -49,6 +37,15 @@ button {
 button:hover {
  background-color: teal;
  color: aliceblue;
-} 
-#Ditio {
+}
+#img {
+    background-image: url('Slide1.JPG');
+    color: purple;
+    font-family: Century Gothic;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 90px 120px 150px 1000px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
