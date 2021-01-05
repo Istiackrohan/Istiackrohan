@@ -21,10 +21,19 @@
     .left-half-width 
     {
         width: 40%;
-        padding-left: 50px;
+        padding-left: 100px;
         float: left;
-        background-image: url('exp-bg.png');
         background-repeat: no-repeat;
+        padding-top: 25px;
+    }
+    .half-width
+    {
+        width: 40%;
+        float: left;
+        background-repeat: no-repeat;
+        padding-top: 25px;
+        background-position: right;
+        padding-right: 150px;
     }
     .anchor-button
     {
@@ -34,12 +43,6 @@
         background-image: linear-gradient(50deg, salmon, tomato);
         margin-left: 40%;
     }
-    .right-half-width 
-    {
-        width: 40%;
-        margin-right: 50px;
-        float: right;
-    }
     .Description
     {
         height: 1000px;
@@ -47,11 +50,40 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-image: url('biography-bg.png');
-
+        padding-top: 20px;
     }
     .Button
     {
-        text-decoration: none;
+        border-radius: 15px;
+        width: 200px;
+        height: 40px;
+        background-image: linear-gradient(50deg, salmon, tomato);
+        margin-left: 35%;
+        padding-top: 13px;
+        text-align: center;
+    }
+    .Header
+    {
+        text-align: center;  
+    }
+    .dream
+    {
+        background-repeat: no-repeat;
+        background-size: 150px;
+    }
+    .section2
+    {
+        height: 1000px;
+        font-size: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('biography-bg.png');
+        padding-top: 300px;
+        padding-left: 80px;
+    }
+    .orange-highligh
+    {
+        color: orange;
     }
     </style>
 </head>
@@ -61,16 +93,42 @@
         <h1>My desire to be a professional <span style="color: tomato; font: outline;">Game Developer.</h1>
         <p style="font-size: 20px;"><b><span style="font-size: 25px;">This </span></b> web development course is the first step to my goal.</p>
     </div>
-    <section class="Description">
+    <section class="Description" style="background-image: url('exp-bg.png'); background-size: 100px;">
         <div class="left-half-width">
-            <h1 style="text-align: center;">Web Developer</h1>
+            <h1 class="Header">Web Developer</h1>
             <p>I am a student in Motijheel Govt. Boy's High School and College. Also a student of programming-hero. I have learnt basic HTML5 & basic CSS. I will develop my skill more and more in next 3 months. If you want to hire me in advance, I won't mind.</p><br>
             <Button class="anchor-button">
-                <a class="Button"style="color: white;" target="_blank" href="https://www.facebook.com/istiack.amin/"><b>HIRE ME</b></a></Button>
+                <a style="color: white; text-decoration: none;" target="_blank" href="https://www.facebook.com/istiack.amin/"><b>HIRE ME</b></a>
+            </Button>
         </div>
-        <div class="right-half-width">
-            <h1 style="text-align: center;">Dream Big</h1>
-            <p>I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make simple website. My goal is to build 3 websites and learn advanced topics.</p>
+        <div class="left-half-width">
+                <img src="jhankar2.png" style="width: 90%; margin-left: 50px;">
+        </div>
+        <div class="left-half-width">
+                <img src="jhankar.png" style="width: 90%;">
+        </div>
+        <div class="dream">
+            <div class="half-width" style="padding-top: 150px;  background-image: url('dream-bg.png'); float: right;">
+                <h1 class="Header">Dream Big</h1>
+                <h3 class="Header" style="">World class Game & Web Developer</h3>
+                <p>I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make simple website. My goal is to build 3 websites and learn advanced topics.</p>
+                <div class="Button">
+                <a style="color: white; text-decoration: none;" target="_blank" href="https://www.facebook.com/istiack.amin/"><b>DESCRIBE RESUME</b></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <h1 style="font-size: 50px;">Experiences</h1>
+        <div class="half-width">
+            <h1>Full Stack Web Developer</h1>
+            <h3><span class="orange-highligh">2021-Present | Pro Level Developer</span></h3>
+            <p>I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+        </div>
+        <div class="half-width">
+            <h1>Baby Web Developer</h1>
+            <h3><span class="orange-highligh">2020-2021 | Pro Level Developer</span></h3>
+            <p>They didn't offer me a job. But I made myself as a remove web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero.</p>
         </div>
     </section>
 </body>
